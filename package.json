@@ -1,0 +1,18 @@
+{
+  "name": "belajar-tailwind-wpu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./tailwind.css -o ./style.css --watch",
+    "build": "npx tailwindcss -i ./tailwind.css -o ./style.css",
+    "build-css": "npx tailwindcss -i tailwind.css -o output.css",
+    "watch-css": "npx tailwindcss -i tailwind.css -o output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

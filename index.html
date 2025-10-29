@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Naskh+Arabic:wght@400..700&display=swap"
+        rel="stylesheet">
+    <title>Belajar Tailwind CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+        #toggle:checked ~ label .toggle-custom {
+            transform: translateX(0.75rem);
+        }
+        
+        .toggle-custom {
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="dark:bg-gray-900 dark:text-white">
+    <div class="text-white p-4 text-center bg-gradient-to-r  from-indigo-400 via-orange-800 to-emerald-400">
+        <h1 class="text-2xl font-bold">Hello Tailwind CSS v4!</h1>
+        <p class="mt-2">This is a test to verify Tailwind CSS is working correctly.</p>
+    </div>
+    <section class="bg-gray-100 p-4 mx-10">
+        <h2 class="text-6xl font-bold mr-6 bg-gradient-to-r from-rose-400 to-fuchsia-600 p-2 bg-clip-text text-transparent">About Tailwind CSS</h2>
+        <p class="mt-2">Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without writing custom CSS.</p>
+    </section>
+    <blockquote class="font-inter text-xl italic">Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without writing custom CSS.</blockquote>
+
+    <div class="bg-cover bg-center mb-20 overflow-y-scroll bg-scroll" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&h=900&q=80'); height: 400px">
+        <h1 class="mb-4 font-inter p-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio laudantium corporis ab
+            officia dolor voluptatem in officiis optio libero, quidem dolores labore voluptate et sapiente delectus architecto
+            quasi nemo!
+            Cupiditate maiores temporibus numquam qui, optio itaque. Molestias, quod reprehenderit. Eveniet culpa beatae
+            accusantium suscipit obcaecati distinctio quibusdam blanditiis facilis tenetur, maxime est, magnam nostrum eum
+            quaerat ea aperiam amet?
+            Aut quas, inventore enim eum labore corporis aliquid illo dignissimos expedita aliquam facere hic veniam cum illum
+            nostrum cumque explicabo minus nulla, perspiciatis tempore. Aperiam saepe totam illo obcaecati dolorum.
+            Sit deserunt, voluptatem velit rem et illum ipsum iste exercitationem commodi eveniet alias. Eius maxime fuga
+            cumque. Ad, rem? Nisi at, saepe perspiciatis iure accusantium nostrum quis voluptatem totam reprehenderit?
+            Repellendus at veritatis illo fugit pariatur aspernatur, modi, facilis facere veniam voluptatem blanditiis ipsam?
+            Consequuntur rem ex, expedita nemo sed eos molestiae, velit eaque dolorum, laboriosam fugit fugiat esse! Natus!
+            Sit deserunt, voluptatem velit rem et illum ipsum iste exercitationem
+            commodi eveniet alias. Eius maxime fuga cumque. Ad, rem? Nisi at,
+            saepe perspiciatis iure accusantium nostrum quis voluptatem totam
+            reprehenderit?
+        
+            cumque. Ad, rem? Nisi at, saepe perspiciatis iure accusantium nostrum quis voluptatem totam reprehenderit?
+            Repellendus at veritatis illo fugit pariatur aspernatur, modi, facilis facere veniam voluptatem blanditiis ipsam?
+            Consequuntur rem ex, expedita nemo sed eos molestiae, velit eaque dolorum, laboriosam fugit fugiat esse! Natus!
+            Sit deserunt, voluptatem velit rem et illum ipsum iste exercitationem
+            commodi eveniet alias. Eius maxime fuga cumque. Ad, rem? Nisi at,
+
+            cumque. Ad, rem? Nisi at, saepe perspiciatis iure accusantium nostrum quis voluptatem totam reprehenderit?
+            Repellendus at veritatis illo fugit pariatur aspernatur, modi, facilis facere veniam voluptatem blanditiis ipsam?
+            Consequuntur rem ex, expedita nemo sed eos molestiae, velit eaque dolorum, laboriosam fugit fugiat esse! Natus!
+            Sit deserunt, voluptatem velit rem et illum ipsum iste exercitationem
+            commodi eveniet alias. Eius maxime fuga cumque. Ad, rem? Nisi at,
+        </h1>
+    </div>
+
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-600 bg-cover" style="background-image: url('img/GEDUNG-UMK.jpg');">
+        <div class="w-full h-full bg-blue-400/40 backdrop-blur-md"></div>
+    </div>
+    
+    
+    <div class="grid grid-cols-3 divide-x bg-emerald-200 justify-center mt-20">
+        <div class="text-center">01</div>
+        <div>02</div>
+        <div>03</div>
+    </div>
+
+    <p class="mb-4 mt-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio laudantium corporis ab officia dolor voluptatem in officiis optio libero, quidem dolores labore voluptate et sapiente delectus architecto quasi nemo!
+    Cupiditate maiores temporibus numquam qui, optio itaque. Molestias, quod reprehenderit. Eveniet culpa beatae accusantium suscipit obcaecati distinctio quibusdam blanditiis facilis tenetur, maxime est, magnam nostrum eum quaerat ea aperiam amet?
+    Aut quas, inventore enim eum labore corporis aliquid illo dignissimos expedita aliquam facere hic veniam cum illum nostrum cumque explicabo minus nulla, perspiciatis tempore. Aperiam saepe totam illo obcaecati dolorum.
+    </p>
+
+    <button class="my-10 bg-sky-500 px-5 py-2 text-white rounded-full font-inter block mx-auto hover:bg-sky-700 active:bg-sky-800 focus:ring-2 focus:ring-red-500">Read More</button>
+
+    <div class="flex items-center justify-center">
+        <span>Light</span>
+        <input type="checkbox" class="mx-3 hidden" id="toggle">
+        <label for="toggle" class="cursor-pointer mx-3">
+            <div class="bg-slate-600 w-9 h-5 text-white p-1 rounded-full flex items-center justify-between cursor-pointer">
+                <div class="w-4 h-4 bg-white rounded-full toggle-custom"></div>
+            </div>
+        </label>
+        <span>Dark</span>
+    </div>
+
+    <div class="max-w-lg my-10 border border-slate-500 rounded-xl mx-auto p-5 shadow-md font-inter group dark:bg-emerald-600">
+        <h3 class="text-2xl font-bold group-hover:text-red-500">Tailwind CSS</h3>
+        <p class="mt-2 text-slate-500 group-hover:text-slate-700 selection:bg-orange-100 first-line:uppercase first-line:tracking-wider first-letter:text-6xl first-letter:float-left dark:text-white">Tailwind CSS is a utility-first CSS framework that allows you to build custom designs without writing custom CSS.</p>
+    </div>
+
+    <div class="max-w-lg border-slate-200 border-2 rounded-xl p-5 shadow-sm font-inter mx-auto">
+        <form action="">
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-medium text-slate-700 after:content-['*'] after:ml-1 after:text-red-500">Email</label>
+                <input type="email" id="name" name="name" class="mt-1 p-2 text-emerald-600 border border-slate-300 rounded-md w-full placeholder-red-300 focus:outline-none focus:ring-1 focus:ring-emerald-500 invalid:text-pink-600 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer" placeholder="masukan email">
+                <p class="text-pink-500 text-sm mt-1 invisible peer-invalid:visible">Email tidak valid</p>
+            </div>
+        </form>
+    </div>
+    
+    <hr class="my-10 border-0">
+
+    <div class="w-40 h-40 bg-yellow-600 mx-auto rounded-lg hover:rotate-12 hover:bg-pink-600 transition-all origin-top-right"></div>
+
+    <div class="w-40 h-40 bg-pink-600 mx-auto mt-20">
+        <div class="w-full h-full bg-slate-500 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300 origin-top-left transition-duration-300 delay-75 group-hover:rotate-180">
+        </div>
+    </div>
+
+    <div class="w-40 h-40 bg-pink-500 mx-auto rounded-lg mt-20 animate-shake">
+
+    </div>
+
+    <hr class="my-10 border-2">
+
+    <div class="container px-8 mx-auto">
+        <div class="border-2 border-slate-500 rounded-xl p-5 relative">
+        <button class="p-2 bg-pink-500 rounded-full hover:bg-slate-200 transition-colors absolute -top-5 left-1/2 cursor-pointer -translate-x-1/2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+        <img src="img/GEDUNG-UMK.jpg" alt="gedung" width="150" class="float-left mr-5">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam alias quaerat ipsa in aspernatur excepturi ut illum ipsam molestiae atque, error laborum eum enim, mollitia soluta sit laboriosam optio ad.
+        Esse voluptates, nihil ducimus, exercitationem deleniti qui facere alias magnam, harum tempore cum modi obcaecati accusamus ipsum quidem vitae quasi velit cumque tempora! Ratione quam autem a amet tempore alias.</p>
+        </div>
+
+        <div class="border-2 border-gray-300 rounded-xl p-5 relative columns-3">
+            <img src="https://img.freepik.com/free-photo/close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000" alt="">
+            <img src="https://img.freepik.com/free-photo/
+            portrait-of-smiling-young-woman_23-2148840421.jpg?w=2000" alt="">
+            <img src="https://img.freepik.com/free-photo/
+            close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000" alt="">
+            <img src="https://img.freepik.com/free-photo/
+             close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000" alt="">
+            <img src="https://img.freepik.com/free-photo/
+             close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000" alt="">
+            <img src="https://img.freepik.com/free-photo/
+             close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000" alt="">
+        </div>
+    </div>
+
+    <hr class="my-10 border-2">
+
+    <div class="container px-6 font-inter max-w-md mx-auto sm:max-w-sm md:bg-emerald-400 sm:bg-red-600 xl:bg-yellow-500 lg:flex lg:max-w-full lg:p-0">
+    <div class="lg:p-12 lg:flex-1">
+        <h3 class="sm:text-2xl text-6xl font-bold text-emerald-600">Arnold Supriyadi</h3>
+        <img src="img/GEDUNG-UMK.jpg" alt="arnold" class="mt-4 rounded-xl shadow-xl sm:h-64 
+        sm:w-full sm:object-cover sm:object-center lg:hidden">
+        <h2 class="mt-6 text-2xl font-semibold text-pink-600">Mari Belajar Progamming
+            bersama WPU</h2>
+        <p class="mt-2 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Minus est officiis culpa natus id praesentium atque cupiditate sunt? Animi
+            dignissimos sit aut nostrum doloremque a nihil, optio totam mollitia autem?</p>
+        <div class="mt-6 sm:mt-32">
+            <a href="#" class="bg-emerald-600 text-white px-4 py-2 rounded-full 
+        hover:bg-emerald-700 transition-colors inline-block tracking-wider">Subscribe</a>
+        </div>
+    </div>
+    <div class="mt-4 lg:flex lg:w-1/2 lg:p-4">
+        <img src="img/hero-img-1.jpg" alt="arnold" class="object-cover rounded-lg sm:hidden md:hidden hidden lg:block">
+    </div>
+    </div>
+
+    <h2 class="mt-24 mb-10 text-center font-bold text-3xl text-pink-600">My Gallery</h2>
+
+    <div class="container mx-auto px-6 sm:flex sm:flex-wrap sm:gap-6 sm:justify-evenly">
+        <div class="rounded-md shadow-lg overflow-hidden mb-5 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://img.freepik.com/free-photo/close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000" alt="umara" class="w-full p-5">
+            <div class="px-6 py-4">
+                <div class="py-4 font-bold text-2xl text-start text-emerald-400">Image Title</div>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, delectus est eos at tenetur eligendi
+                    dignissimos, nobis voluptatem adipisci molestiae officiis alias vitae sunt atque, voluptatibus repellat.
+                    Architecto, voluptatem molestiae.
+                </p>
+            </div>
+        </div>
+
+        <div class="rounded-md shadow-lg overflow-hidden mb-5 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://img.freepik.com/free-photo/close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000"
+                alt="umara" class="w-full p-5">
+            <div class="px-6 py-4">
+                <div class="py-4 font-bold text-2xl text-start text-emerald-400">Image Title</div>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, delectus est eos at
+                    tenetur eligendi
+                    dignissimos, nobis voluptatem adipisci molestiae officiis alias vitae sunt atque, voluptatibus repellat.
+                    Architecto, voluptatem molestiae.
+                </p>
+            </div>
+        </div>
+
+        <div class="rounded-md shadow-lg overflow-hidden mb-5 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://img.freepik.com/free-photo/close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000"
+                alt="umara" class="w-full p-5">
+            <div class="px-6 py-4">
+                <div class="py-4 font-bold text-2xl text-start text-emerald-400">Image Title</div>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, delectus est eos at
+                    tenetur eligendi
+                    dignissimos, nobis voluptatem adipisci molestiae officiis alias vitae sunt atque, voluptatibus repellat.
+                    Architecto, voluptatem molestiae.
+                </p>
+            </div>
+        </div>
+
+        <div class="rounded-md shadow-lg overflow-hidden mb-5 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://img.freepik.com/free-photo/close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000"
+                alt="umara" class="w-full p-5">
+            <div class="px-6 py-4">
+                <div class="py-4 font-bold text-2xl text-start text-emerald-400">Image Title</div>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, delectus est eos at
+                    tenetur eligendi
+                    dignissimos, nobis voluptatem adipisci molestiae officiis alias vitae sunt atque, voluptatibus repellat.
+                    Architecto, voluptatem molestiae.
+                </p>
+            </div>
+        </div>
+
+        <div class="rounded-md shadow-lg overflow-hidden mb-5 sm:w-64 md:w-80 lg:w-72">
+            <img src="https://img.freepik.com/free-photo/close-up-shot-pretty-woman-smiling_23-2148840421.jpg?w=2000"
+                alt="umara" class="w-full p-5">
+            <div class="px-6 py-4">
+                <div class="py-4 font-bold text-2xl text-start text-emerald-400">Image Title</div>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, delectus est eos at
+                    tenetur eligendi
+                    dignissimos, nobis voluptatem adipisci molestiae officiis alias vitae sunt atque, voluptatibus repellat.
+                    Architecto, voluptatem molestiae.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const checkbox = document.getElementById('toggle');
+    const html = document.querySelector('html');
+
+    checkbox.addEventListener('change', function() {
+        checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
+    });
+</script>
+</html>
