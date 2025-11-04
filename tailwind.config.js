@@ -12,6 +12,9 @@ module.exports = {
                 'bounce-slow': 'bounce 2s infinite',
                 'shake': 'shake 0.5s ease-in-out infinite',
             },
+            colors: {
+                'wpu': '#DD7BDF',
+            },
             keyframes: {
                 shake: {
                     '0%': { transform: 'rotate(-3deg)' },

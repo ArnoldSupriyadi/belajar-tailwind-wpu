@@ -13,13 +13,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-        #toggle:checked ~ label .toggle-custom {
-            transform: translateX(0.75rem);
-        }
-        
-        .toggle-custom {
-            transition: transform 0.3s ease;
-        }
     </style>
 </head>
 <body class="dark:bg-gray-900 dark:text-white">
@@ -239,7 +232,26 @@
             </div>
         </div>
     </div>
-</body>
+
+    <div class="mt-24 p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4">
+        <h2 class="text-xl font-inter h-15 text-emerald-500 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">Welcome to WPU</span></h2>
+        <div class="h-15 text-md text-pink-400 md:col-start-2 md:row-start-2 md:flex"><span class="self-end">@arnoldsupriyadi</span></div>
+        <div class="h-15 grid-card group relative overflow-hidden hover:scale-95 transition-all duration-500">
+            <div class="grid-card-img bg-[url('/img/hero-img-1.jpg')]"></div>
+        </div>
+        <div class="h-15 grid-card md:col-start-3"></div>
+        <div class="h-15 grid-card"></div>
+        <div class="h-15 grid-card"></div>
+        <div class="h-15 grid-card"></div>
+        <div class="h-15 grid-card md:col-start-2"></div>
+        <div class="h-15 grid-card md:col-start-4"></div>
+        <div class="h-15 grid-card"></div>
+        <div class="h-15 grid-card md:col-start-3"></div>
+        <div class="h-15 grid-card md:col-start-3"></div>
+    </div>
+
+    <h1 class=" text-wpu">Hello WPU</h1>
+</body> 
 <script>
     const checkbox = document.getElementById('toggle');
     const html = document.querySelector('html');

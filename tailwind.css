@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* h1 { */
+  /* font-size: 6rem; */
+  /* } */
+}
+
+@layer components {
+  .grid-card {
+    @apply bg-blue-600 xl:aspect-[4/3] aspect-[4/3] md:aspect-[3/4] rounded-lg;
+  }
+
+  .grid-card-img {
+    @apply w-full h-full bg-cover bg-center absolute group-hover:scale-125 transition-all duration-700 group-hover:rotate-12;
+  }
+}
+@layer utilities {
+  #toggle:checked ~ label .toggle-custom {
+    transform: translateX(0.75rem);
+  }
+
+  .toggle-custom {
+    transition: transform 0.3s ease;
+  }
+}
